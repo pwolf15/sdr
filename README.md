@@ -16,3 +16,5 @@ PySDR
 * amplitude, phase, frequency
 * impulse
 * Fourier properties: linearity, frequency shift, scaling in time, convolution in time, convolution in frequency
+* fftshift (center frequencies around 0)
+* windowing: Fourier expects periodic signal; windowing ensures beginning and start of signal connect (Hmaming, Hanning, Blackman, Kaiser, rectangular window: multiplying by array of ones / do nothing)
